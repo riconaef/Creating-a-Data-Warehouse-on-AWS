@@ -1,6 +1,6 @@
 # Creating-a-Data-Warehouse-on-AWS
 **Creating a Data Warehouse to build a relational database with Postgres on AWS**
-
+ 
 ### Follwoing are the used libraries
 configparser, psycopg2
 
