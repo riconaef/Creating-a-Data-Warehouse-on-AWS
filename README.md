@@ -17,7 +17,7 @@ songs:     [song_id, title, artist_id, year, duration]
 artists:   [artist_id, name, location, latitude, longitude]
 time:      [start_time, hour, day, week, month, year, weekday]
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/starschema.png)
 
 ### File Descriptions
 sql_queries.p; 
