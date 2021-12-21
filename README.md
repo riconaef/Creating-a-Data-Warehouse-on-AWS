@@ -5,7 +5,7 @@
 configparser, psycopg2
 
 ### Project Motivation
-A startup called Sparkify, needs to have a relational database to perform queries regarding the songs, users are listening to. The provided data consists of json files, which need to be reordered into new tables.
+A startup called Sparkify, needs to have a relational database in the form of a star-schema to improve the data-analysis. The provided data consists of json files, which need to be reordered into five new tables.
 Following are tables, which were created during the project: 
 
 #### Staging tables:
