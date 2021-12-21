@@ -12,15 +12,15 @@ Following are tables, which were created during the project:
 
 <ins>Fact table:</ins> songplay
 
-<ins>Dimension tables:</ins> users, songs, artists, time
+<ins>Dimension tables:</ins> users, songs, artists, times
 
 ![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/starschema.png)
 
 The data is loaded from an S3 storage on AWS into the staging tables. From there the data are reordered with the help of an ETL pipeline into 5 new tables which have an star-schema architecture. 
 
 ### File Descriptions
-sql_queries.p<br />
-create_tables.p<br />
+sql_queries.py<br />
+create_tables.py<br />
 etl.py<br />
 dwh.cfg<br />
 
