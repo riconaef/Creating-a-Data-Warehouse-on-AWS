@@ -27,11 +27,11 @@ dwh.cfg<br />
 To run, first the "create_tables.py" needs to be run, which creates the tables. After, "etl.py" can be run, which fills the table with an etl-pipeline. 
 
 ### Test query
-SELECT songs.title, COUNT(*) amount
-FROM songs
-JOIN songplay ON (songs.song_id = songplay.song_id)
-GROUP BY songs.title
-ORDER BY amount DESC
+SELECT songs.title, COUNT(*) amount<br />
+FROM songs<br />
+JOIN songplay ON (songs.song_id = songplay.song_id)<br />
+GROUP BY songs.title<br />
+ORDER BY amount DESC<br />
 LIMIT 10
 
 Output:
