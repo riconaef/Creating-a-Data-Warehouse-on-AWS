@@ -14,7 +14,7 @@ Following are tables, which were created during the project:
 
 <ins>Dimension tables:</ins> users, songs, artists, times
 
-![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/starschema.png)
+![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/star-schema.png)
 
 The data is loaded from an S3 storage on AWS into the staging tables. From there the data are reordered with the help of an ETL pipeline into 5 new tables which have an star-schema architecture. 
 
