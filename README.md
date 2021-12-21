@@ -10,7 +10,7 @@ Following are tables, which were created during the project:
 
 <ins> Staging tables:<ins> staging_events_table, staging_songs_table
 
-<ins> Fact table: <ins> songplay
+<ins> Fact table: songplay
 
 <ins> Dimension tables: <ins> users, songs, artists, time
 
