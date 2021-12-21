@@ -26,6 +26,16 @@ dwh.cfg<br />
 
 To run, first the "create_tables.py" needs to be run, which creates the tables. After, "etl.py" can be run, which fills the table with an etl-pipeline. 
 
+### Test query
+SELECT songs.title, COUNT(*) amount
+FROM songs
+JOIN songplay ON (songs.song_id = songplay.song_id)
+GROUP BY songs.title
+ORDER BY amount DESC
+LIMIT 10
+
+Output:
+![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/star-schema.png)
 
 ### Licensing, Authors, Acknowledgements
 I thank Sparkify for offering the data.
