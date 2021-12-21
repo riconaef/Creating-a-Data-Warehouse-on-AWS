@@ -25,6 +25,7 @@ create_tables.p;
 etl.py
 dwh.cfg
 
+
 To run, first the "create_tables.py" needs to be run, which creates the tables. After, "etl.py" can be run, which fills the table with an etl-pipeline. 
 
 
