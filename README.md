@@ -33,7 +33,7 @@ JOIN songplay ON (songs.song_id = songplay.song_id)<br />
 GROUP BY songs.title<br />
 ORDER BY amount DESC<br />
 LIMIT 10<br />
-
+ 
 Output:<br />
 ![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/query.png)
 
