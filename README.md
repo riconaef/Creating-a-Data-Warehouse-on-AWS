@@ -35,7 +35,7 @@ ORDER BY amount DESC<br />
 LIMIT 10<br />
  
 Output:<br />
-![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/query.png)
+![alt text](https://github.com/riconaef/Creating-a-Data-Warehouse-on-AWS/blob/main/query1.png)
 
 ### Licensing, Authors, Acknowledgements
 I thank Sparkify for offering the data.
